@@ -65,7 +65,7 @@ ul {
 }
 
 .content a {
-  transition: 1s;
+  transition: 0.5s;
   text-decoration: none;
   color: #725C5C;
 
