@@ -14,8 +14,6 @@ body {
     "aside main"
     "aside footer"
   ;
-  grid-template-rows: 68px 1fr 181px;
-  grid-template-columns: 220px 1fr;
   font-family: Roboto, sans-serif;
 }
 
@@ -221,15 +219,22 @@ header .header-content .login .image .notification-badge {
   font-weight: 500;
   font-size: 14px;
   line-height: 25px;
+  letter-spacing: 0.05em;
   text-align: end;
+}
+
+.content-video-apresentation {
+  position: relative;
+  
 }
 
 .video-apresentation {
   margin: 19px 31px 30px 45px;
-  width: 783px;
+  width: 60%;
   height: 439px;
   border-radius: 3px;
-  position: relative;
+  position: absolute;
+  left: 210px;
   
 }
 
@@ -237,16 +242,20 @@ header .header-content .login .image .notification-badge {
   position: absolute;
   background: hsla(21, 92%, 29%, 0.5);
   border-radius: 3px;
-  width: 783px;
-  height: 439px;
+  width: 750px;
+  height: 420px;
   left: 1px;
   top: 0px;
+}
+
+.image-video img {
+  width: 750px;
 }
 
 .text-top{
   position: absolute;
   height: 54px;
-  left: 35px;
+  left: 30px;
   right: 17px;
   top: 35px;
   color: hsla(0, 0%, 100%, 1);
@@ -289,3 +298,16 @@ header .header-content .login .image .notification-badge {
   font-size: 20px;
 }
 
+.content-details {
+  position: relative;
+}
+
+.content-details .details-title {
+  background-color: #fdf1eb;
+  width: 225px;
+  position: absolute;
+  left: 760px;
+  border: #ececec solid 1px;
+  border-radius: 3px 3px 0px 0px;
+  padding: 11px 15px 9px 15px;
+}
