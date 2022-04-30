@@ -358,6 +358,11 @@ header .header-content .login .image .notification-badge {
   color: #ED7839;
 }
 
+.content .content-topics {
+  border: 1px solid #ECECEC;
+  border-width: 0px 1px 1px 1px;
+}
+
 .content .content-topics .topics-title {
   font-weight: 500;
   font-size: 20px;
@@ -380,7 +385,9 @@ header .header-content .login .image .notification-badge {
 }
 
 .content .content-topics .topics-text {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -418,7 +425,86 @@ header .header-content .login .image .notification-badge {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12);
   padding: 7px 13px 9px 14px;
   position: absolute;
-  top: 140px;
-  padding-left: 30px;
+  top: 129px;
   display: flex;
+}
+
+.content .content-topics .topics-text .button button .sinal {
+  padding-right: 12px;
+  font-size: 30px;
+}
+
+.content .content-topics .card-topics {
+  margin: 15px;
+  border: solid 1px #ECECEC;
+  padding-top: 17px;
+  padding-left: 24.17px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.content .content-topics .card-topics .card-header p:nth-child(1){
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ED7839;
+}
+
+.content .content-topics .card-topics .card-header p:nth-child(2) {
+  font-weight: 500;
+  font-size: 12px;
+  color: #5C5C5C;
+  line-height: 15px;
+
+}
+
+.content .content-topics .card-topics .card-body {
+  color: #4D4D4D;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+}
+
+.content .content-topics .card-topics .card-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  padding-bottom: 18px;
+}
+
+.content .content-topics .card-topics .card-footer .dotted-icon {
+  width: 0px;
+  height: 18px;
+  border-left: 4px dotted #ED7839;
+}
+
+.content .content-topics .card-topics .card-footer .info-icon button {
+  border: none;
+  background: none;
+}
+
+.content .content-topics .card-topics .card-footer .favorite-icon button {
+  background-color: #ED7839;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 7px 2px 6px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12);
+}
+
+.content .content-topics .card-topics .card-footer .likes, .answer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #757575;
+}
+
+/* FOOTER */
+
+.footer img {
+  margin-top: 50px;
+  margin-left: 14px;
 }
