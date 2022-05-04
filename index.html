@@ -184,6 +184,21 @@
       <div class="topics-title">
         <h3>Discussões</h3>
       </div>
+      <div style="display: none;" class="card-script">
+        <p>Tem alguma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+        <form action="form-questions">
+          <label for="assunto">Assunto</label>
+          <input type="text" name="assunto" id="assunto" placeholder="Defina um tópico sucinto para notificar os autores...">
+          <br>
+          <label for="conteudo">conteúdo</label>
+          <textarea name="conteudo" id="conteudo" cols="143" rows="5"></textarea>
+        </form>
+        <div class="buttons">
+          <button type="button"><strong>B</strong></button>
+          <button><strong><i>I</i></strong></button>
+          <button type="button">Enviar</button>
+        </div>
+      </div>
       <div class="topics-text">
         <div class="text-title">
           <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
@@ -203,10 +218,11 @@
           <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
         </div>
         <div class="button">
-          <button type="button" onclick="topics()"><div class="sinal">&plus;</div> Criar Tópico</button>
+          <button type="button" id="btn-topic"><div class="sinal">&plus;</div> Criar Tópico</button>
         </div>
       </div>
       <div class="card-topics">
+        <div class="script"></div>
         <div class="card-header">
           <p>Assunto da pergunta aparece aqui</p>
           <p>Carlos Henrique Santos</p>
@@ -230,7 +246,6 @@
         </div>
       </div>
       <div class="card-topics">
-        <div class="script"></div>
         <div class="card-header">
           <p>Assunto da pergunta aparece aqui</p>
           <p>Carlos Henrique Santos</p>

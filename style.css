@@ -502,6 +502,57 @@ header .header-content .login .image .notification-badge {
   color: #757575;
 }
 
+/* DIV FORM */
+
+.card-script {
+
+  border-bottom: 1px solid #ECECEC;
+}
+
+.card-script p {
+  font-family: Quicksand,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5C5C5C;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.card-script form{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-script label {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ED7839;
+}
+
+.card-script input {
+  width: 98%;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+
+}
+.card-script form textarea {
+  width: 98%;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+
+}
+
+.card-script button {
+  width: 98%;
+  border: none;
+  border-radius: 3px;
+
+}
+
 /* FOOTER */
 
 .footer img {
