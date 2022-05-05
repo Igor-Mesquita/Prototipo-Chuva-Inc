@@ -184,7 +184,10 @@
       <div class="topics-title">
         <h3>Discussões</h3>
       </div>
-      <div style="display: none;" class="card-script">
+      <div style="display: none;" class="card-sent">
+        
+      </div>
+      <div style="display: none;" class="card-form">
         <p>Tem alguma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
         <form action="form-questions">
           <label for="assunto">Assunto</label>
@@ -194,9 +197,11 @@
           <textarea name="conteudo" id="conteudo" cols="143" rows="5"></textarea>
         </form>
         <div class="buttons">
-          <button type="button"><strong>B</strong></button>
-          <button><strong><i>I</i></strong></button>
-          <button type="button">Enviar</button>
+          <div class="bold-italic">
+            <button type="button" id="bold"><strong>B</strong></button>
+            <button style="font-family: serif;" type="button" id="italic"><strong><i>I</i></strong></button>
+          </div>
+          <button type="button" id="submit" onclick="submit()">Enviar</button>
         </div>
       </div>
       <div class="topics-text">
