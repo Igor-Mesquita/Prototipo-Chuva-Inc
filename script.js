@@ -11,6 +11,8 @@ btn.addEventListener('click', function(){
 var submit = document.getElementById('submit')
 var divSent = document.querySelector('.card-sent')
 var prevTopic = document.querySelector('.card-form') 
+var textArea = document.querySelector('#conteudo')
+var input = document.querySelector('#assunto')
 submit.addEventListener('click', function() {
   if (divSent.style.display === 'none') {
     divSent.style.display = 'block'
