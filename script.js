@@ -19,3 +19,13 @@ submit.addEventListener('click', function() {
     prevTopic.style.display = 'none'
   }
 })
+
+var button = document.getElementById('mais')
+var divLorem = document.getElementsByClassName('lorem')
+var oldlorem = document.getElementsById('lorem')
+button.addEventListener('click', function() {
+  if (divLorem.style.display === 'none') {
+    divLorem.style.display = 'block'
+    oldlorem.style.display = 'none'
+  }
+})
