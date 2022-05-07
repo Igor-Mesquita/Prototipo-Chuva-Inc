@@ -673,25 +673,51 @@ header .header-content .login .image .notification-badge {
   position: absolute;
 }
 
+ 
 /* DIV AUTHORS */
 
 .resposta .adriano {
   background: #F8F8F8;  
   border: 1px solid #E7E7E7;
-  padding: ;
+  margin: 0%;
+  width: 100%;
+  font-size: 12px;
+  line-height: 15px;
+  position: relative;
 }
 
-.resposta {
-  font-family: Quicksand, sans-serif;
+
+
+.resposta .adriano p:nth-child(1) {
+  font-weight: 700;
+  color: #5C5C5C;
+  padding-bottom: 10px;
+
+}
+
+
+
+.resposta .adriano P:nth-child(2) {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-
   color: #4D4D4D;
 }
 
+#autor {
+  position: absolute;
+  top: 5px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  left: 95%;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ED7839;
+}
 
-/* FOOTER */
+
+  /* FOOTER */
 
 .footer img {
   margin-top: 50px;
