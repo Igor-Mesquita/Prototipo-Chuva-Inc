@@ -22,4 +22,5 @@ Enquanto o site não está finalizado, entre em contato pelo meu [LinkedIn](http
 
 ---
 **Link do projeto**: https://igor-mesquita.github.io/Prototipo-Chuva-Inc/
+
 **Obs:** Este repositório é mantido como histórico de aprendizado e será atualizado nos próximos dias.
