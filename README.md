@@ -21,5 +21,5 @@ Foco em estrutura limpa, CTA direto e design responsivo.
 Enquanto o site não está finalizado, entre em contato pelo meu [LinkedIn](https://www.linkedin.com/in/igor-mesquita154) ou [email](mailto:igormesquita.dev@gmail.com).
 
 ---
-
+**Link do projeto**: https://igor-mesquita.github.io/Prototipo-Chuva-Inc/
 **Obs:** Este repositório é mantido como histórico de aprendizado e será atualizado nos próximos dias.
